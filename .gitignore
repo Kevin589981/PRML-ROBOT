@@ -1,0 +1,14 @@
+/data/expert_demos.pkl
+**/*.pyc
+.env
+combine.py
+merged_output.txt
+*.hdf5
+debug_images/
+*.h5
+*.pth
+testfile
+*.mp4
+*.png
+note.md
+*.pkl.gz
