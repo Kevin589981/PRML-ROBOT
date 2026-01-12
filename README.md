@@ -269,18 +269,6 @@ Training hyperparameters:
 - Batch size: 256
 - Epochs: 200 (with early stopping)
 
-## 📝 Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-@article{qiu2025generalization,
-  title={A Case Study on Generalization Challenges in Imitation Learning: Architecture Choices, Distribution Design, and Data Scaling for Robust Robotic Manipulation},
-  author={Qiu, Qiming and Xu, Zhipeng},
-  year={2025},
-  note={Pattern Recognition and Machine Learning Course Project, Fudan University}
-}
-```
 
 ## 🔗 Related Work
 
