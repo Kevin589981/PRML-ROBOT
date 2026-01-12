@@ -40,9 +40,6 @@ This repository contains the complete implementation and experimental framework 
 - **Goal**: Grasp a randomized cube and place it into a basket
 - **Challenges**: Full randomization of object poses, lighting, friction, sensor noise
 
-<p align="center">
-  <img src="pic/Enironment setting.png" width="400"/>
-</p>
 
 ### Task 2: Three-Cube Stacking (Isaac Sim)
 - **Environment**: Franka Panda in Isaac Sim with MimicGen integration
