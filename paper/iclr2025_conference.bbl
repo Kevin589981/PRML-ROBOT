@@ -1,0 +1,73 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Dalal et~al.(2023)Dalal, Mandlekar, Garrett, Handa, Salakhutdinov, and Fox]{dalal2023imitatingtaskmotionplanning}
+Murtaza Dalal, Ajay Mandlekar, Caelan Garrett, Ankur Handa, Ruslan Salakhutdinov, and Dieter Fox.
+\newblock Imitating task and motion planning with visuomotor transformers, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.16309}.
+
+\bibitem[Garc{{\'i}}a et~al.(2015)Garc{{\'i}}a, Fern, and o~Fern{{\'a}}ndez]{JMLR:v16:garcia15a}
+Javier Garc{{\'i}}a, Fern, and o~Fern{{\'a}}ndez.
+\newblock A comprehensive survey on safe reinforcement learning.
+\newblock \emph{Journal of Machine Learning Research}, 16\penalty0 (42):\penalty0 1437--1480, 2015.
+\newblock URL \url{http://jmlr.org/papers/v16/garcia15a.html}.
+
+\bibitem[Jiang et~al.(2025)Jiang, Xie, Lin, Xu, Wan, Mandlekar, Fan, and Zhu]{jiang2025dexmimicgenautomateddatageneration}
+Zhenyu Jiang, Yuqi Xie, Kevin Lin, Zhenjia Xu, Weikang Wan, Ajay Mandlekar, Linxi Fan, and Yuke Zhu.
+\newblock Dexmimicgen: Automated data generation for bimanual dexterous manipulation via imitation learning, 2025.
+\newblock URL \url{https://arxiv.org/abs/2410.24185}.
+
+\bibitem[Muratore et~al.(2021)Muratore, Eilers, Gienger, and Peters]{Muratore_2021}
+Fabio Muratore, Christian Eilers, Michael Gienger, and Jan Peters.
+\newblock Data-efficient domain randomization with bayesian optimization.
+\newblock \emph{IEEE Robotics and Automation Letters}, 6\penalty0 (2):\penalty0 911–918, April 2021.
+\newblock ISSN 2377-3774.
+\newblock \doi{10.1109/lra.2021.3052391}.
+\newblock URL \url{http://dx.doi.org/10.1109/LRA.2021.3052391}.
+
+\bibitem[NVIDIA et~al.(2025)NVIDIA, :, Agarwal, Ali, Bala, Balaji, Barker, Cai, Chattopadhyay, Chen, Cui, Ding, Dworakowski, Fan, Fenzi, Ferroni, Fidler, Fox, Ge, Ge, Gu, Gururani, He, Huang, Huffman, Jannaty, Jin, Kim, Klár, Lam, Lan, Leal-Taixe, Li, Li, Lin, Lin, Ling, Liu, Liu, Luo, Ma, Mao, Mo, Mousavian, Nah, Niverty, Page, Paschalidou, Patel, Pavao, Ramezanali, Reda, Ren, Sabavat, Schmerling, Shi, Stefaniak, Tang, Tchapmi, Tredak, Tseng, Varghese, Wang, Wang, Wang, Wang, Wei, Wei, Wu, Xu, Yang, Yen-Chen, Zeng, Zeng, Zhang, Zhang, Zhang, Zhao, and Zolkowski]{nvidia2025cosmosworldfoundationmodel}
+NVIDIA, :, Niket Agarwal, Arslan Ali, Maciej Bala, Yogesh Balaji, Erik Barker, Tiffany Cai, Prithvijit Chattopadhyay, Yongxin Chen, Yin Cui, Yifan Ding, Daniel Dworakowski, Jiaojiao Fan, Michele Fenzi, Francesco Ferroni, Sanja Fidler, Dieter Fox, Songwei Ge, Yunhao Ge, Jinwei Gu, Siddharth Gururani, Ethan He, Jiahui Huang, Jacob Huffman, Pooya Jannaty, Jingyi Jin, Seung~Wook Kim, Gergely Klár, Grace Lam, Shiyi Lan, Laura Leal-Taixe, Anqi Li, Zhaoshuo Li, Chen-Hsuan Lin, Tsung-Yi Lin, Huan Ling, Ming-Yu Liu, Xian Liu, Alice Luo, Qianli Ma, Hanzi Mao, Kaichun Mo, Arsalan Mousavian, Seungjun Nah, Sriharsha Niverty, David Page, Despoina Paschalidou, Zeeshan Patel, Lindsey Pavao, Morteza Ramezanali, Fitsum Reda, Xiaowei Ren, Vasanth Rao~Naik Sabavat, Ed~Schmerling, Stella Shi, Bartosz Stefaniak, Shitao Tang, Lyne Tchapmi, Przemek Tredak, Wei-Cheng Tseng, Jibin Varghese, Hao Wang, Haoxiang Wang, Heng Wang, Ting-Chun Wang, Fangyin Wei, Xinyue Wei, Jay~Zhangjie Wu, Jiashu Xu, Wei Yang, Lin Yen-Chen, Xiaohui Zeng, Yu~Zeng, Jing Zhang, Qinsheng Zhang, Yuxuan Zhang, Qingqing Zhao, and Artur Zolkowski.
+\newblock Cosmos world foundation model platform for physical ai, 2025.
+\newblock URL \url{https://arxiv.org/abs/2501.03575}.
+
+\bibitem[Pomerleau(2015)]{Pomerleau2015ALVINNAA}
+Dean~A. Pomerleau.
+\newblock Alvinn, an autonomous land vehicle in a neural network.
+\newblock 2015.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:18420840}.
+
+\bibitem[Ramakrishnan et~al.(2020)Ramakrishnan, Kamar, Dey, Horvitz, and Shah]{ramakrishnan2020blind}
+Ramya Ramakrishnan, Ece Kamar, Debadeepta Dey, Eric Horvitz, and Julie Shah.
+\newblock Blind spot detection for safe sim-to-real transfer.
+\newblock \emph{Journal of Artificial Intelligence Research}, 67:\penalty0 191--234, 2020.
+
+\bibitem[Torne et~al.(2024)Torne, Simeonov, Li, Chan, Chen, Gupta, and Agrawal]{torne2024reconcilingrealitysimulationrealtosimtoreal}
+Marcel Torne, Anthony Simeonov, Zechu Li, April Chan, Tao Chen, Abhishek Gupta, and Pulkit Agrawal.
+\newblock Reconciling reality through simulation: A real-to-sim-to-real approach for robust manipulation, 2024.
+\newblock URL \url{https://arxiv.org/abs/2403.03949}.
+
+\bibitem[Wang et~al.(2025)Wang, Li, Niu, Huang, Zhang, and Su]{wang2025recipeefficientsimtorealtransfer}
+Yilin Wang, Shangzhe Li, Haoyi Niu, Zhiao Huang, Weitong Zhang, and Hao Su.
+\newblock A recipe for efficient sim-to-real transfer in manipulation with online imitation-pretrained world models, 2025.
+\newblock URL \url{https://arxiv.org/abs/2510.02538}.
+
+\bibitem[Zhang et~al.(2025)Zhang, Cheng, Sun, Wang, Li, Zhu, and Shen]{zhang2025stepworldmodelssurvey}
+Peng-Fei Zhang, Ying Cheng, Xiaofan Sun, Shijie Wang, Fengling Li, Lei Zhu, and Heng~Tao Shen.
+\newblock A step toward world models: A survey on robotic manipulation, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.02097}.
+
+\bibitem[Zhang et~al.(2018)Zhang, McCarthy, Jow, Lee, Chen, Goldberg, and Abbeel]{zhang2018deepimitationlearningcomplex}
+Tianhao Zhang, Zoe McCarthy, Owen Jow, Dennis Lee, Xi~Chen, Ken Goldberg, and Pieter Abbeel.
+\newblock Deep imitation learning for complex manipulation tasks from virtual reality teleoperation, 2018.
+\newblock URL \url{https://arxiv.org/abs/1710.04615}.
+
+\bibitem[Zhao et~al.(2020)Zhao, Queralta, Qingqing, and Westerlund]{zhao2020closingsimtorealgapcollaborative}
+Wenshuai Zhao, Jorge~Peña Queralta, Li~Qingqing, and Tomi Westerlund.
+\newblock Towards closing the sim-to-real gap in collaborative multi-robot deep reinforcement learning, 2020.
+\newblock URL \url{https://arxiv.org/abs/2008.07875}.
+
+\end{thebibliography}

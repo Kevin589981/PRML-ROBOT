@@ -1,0 +1,98 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\citation{JMLR:v16:garcia15a}
+\citation{zhao2020closingsimtorealgapcollaborative}
+\citation{Muratore_2021}
+\citation{ramakrishnan2020blind}
+\citation{torne2024reconcilingrealitysimulationrealtosimtoreal}
+\citation{wang2025recipeefficientsimtorealtransfer}
+\citation{zhang2025stepworldmodelssurvey}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{jiang2025dexmimicgenautomateddatageneration}
+\citation{nvidia2025cosmosworldfoundationmodel}
+\citation{zhang2018deepimitationlearningcomplex}
+\citation{Pomerleau2015ALVINNAA}
+\citation{dalal2023imitatingtaskmotionplanning}
+\citation{wang2025recipeefficientsimtorealtransfer}
+\citation{jiang2025dexmimicgenautomateddatageneration}
+\citation{nvidia2025cosmosworldfoundationmodel}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{2}{section.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:env_setup}{{1a}{3}{The simulated desktop manipulation environment in PyBullet. A 7-DoF Franka Panda robot arm is tasked to pick up a randomized cube on the table and place it into the blue basket}{figure.caption.1}{}}
+\newlabel{sub@fig:env_setup}{{a}{3}{The simulated desktop manipulation environment in PyBullet. A 7-DoF Franka Panda robot arm is tasked to pick up a randomized cube on the table and place it into the blue basket}{figure.caption.1}{}}
+\newlabel{fig:Isaac setting}{{1b}{3}{The simulated desktop manipulation environment in Isaac Sim.Franka Panda robot arm is tasked to pick up randomized cubes and stack them in order}{figure.caption.1}{}}
+\newlabel{sub@fig:Isaac setting}{{b}{3}{The simulated desktop manipulation environment in Isaac Sim.Franka Panda robot arm is tasked to pick up randomized cubes and stack them in order}{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Environment \& Method}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Task setting}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Data collection}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \relax \fontsize  {9}{10pt}\selectfont  Data collection via Apple Vision Pro teleoperation.}}{4}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:teleop_interface}{{2}{4}{\footnotesize Data collection via Apple Vision Pro teleoperation}{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \relax \fontsize  {9}{10pt}\selectfont  Complete pipeline: Vision Pro hand tracking → OpenXR → coordinate transformation \& kinematic retargeting → smooth joint commands for Franka Panda arm.}}{4}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:teleop_pipeline}{{3}{4}{\footnotesize Complete pipeline: Vision Pro hand tracking → OpenXR → coordinate transformation \& kinematic retargeting → smooth joint commands for Franka Panda arm}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Policy Learning}{4}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:policy_learning}{{3.3}{4}{Policy Learning}{subsection.3.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Observation Space Definition}{4}{subsubsection.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Network Architecture}{4}{subsubsection.3.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Architecture of the Vision-Final Policy.} To optimize for spatial constraints, the visual processing pipeline (top row) extracts geometric features ($\mathbf  {z}_{vis}$), which are then fused with proprioception and processed by the temporal aggregation module (bottom row) to produce control actions and phase predictions.}}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:arch}{{4}{5}{\textbf {Architecture of the Vision-Final Policy.} To optimize for spatial constraints, the visual processing pipeline (top row) extracts geometric features ($\mathbf {z}_{vis}$), which are then fused with proprioception and processed by the temporal aggregation module (bottom row) to produce control actions and phase predictions}{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3}Loss Function}{5}{subsubsection.3.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Data Augmentaion}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}World model transfer}{6}{subsection.3.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Cosmos-Transfer1 is a world generator with adaptive multimodal control. It contains multiple control branches to extract control information from different modality inputs such as segmentation, depth, and edge. }}{6}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:cosmos transfer}{{5}{6}{Cosmos-Transfer1 is a world generator with adaptive multimodal control. It contains multiple control branches to extract control information from different modality inputs such as segmentation, depth, and edge}{figure.caption.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces {\bfseries  Architecture Comparison \& Performance.} We compare the privileged baseline against visual policies with varying input resolutions and configurations. $\mathcal  {O}_{priv}$ denotes ground-truth physical states, while $\mathcal  {O}_{vis}$ relies purely on pixels. Note that the low resolution ($64^2$) severely limits the spatial expressiveness of the CNN encoder.}}{7}{table.caption.5}\protected@file@percent }
+\newlabel{tab:model_comparison}{{1}{7}{{\bfseries Architecture Comparison \& Performance.} We compare the privileged baseline against visual policies with varying input resolutions and configurations. $\mathcal {O}_{priv}$ denotes ground-truth physical states, while $\mathcal {O}_{vis}$ relies purely on pixels. Note that the low resolution ($64^2$) severely limits the spatial expressiveness of the CNN encoder}{table.caption.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiment}{7}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Evaluation of Training and Model Generalization}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Architecture Comparison and Privileged Information Dependency}{7}{subsubsection.4.1.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces {\bfseries  Basic Generalization Evaluation (MLP-Base).} Success rates of the privileged policy across basic spatial variations including base position, initial/target heights, and object shapes. The policy shows strong geometric invariance but fails at hard spatial boundaries (e.g., height +10cm).}}{8}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:gen_basic}{{6}{8}{{\bfseries Basic Generalization Evaluation (MLP-Base).} Success rates of the privileged policy across basic spatial variations including base position, initial/target heights, and object shapes. The policy shows strong geometric invariance but fails at hard spatial boundaries (e.g., height +10cm)}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Ideal Privileged Instruction Policy (MLP-Base)}{8}{subsubsection.4.1.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces {\bfseries  Critical Failure Modes of MLP-Base.} While robust to physics, the policy collapses under temporal changes and execution noise (data extracted from Appendix).}}{9}{table.caption.7}\protected@file@percent }
+\newlabel{tab:mlp_failure_modes}{{2}{9}{{\bfseries Critical Failure Modes of MLP-Base.} While robust to physics, the policy collapses under temporal changes and execution noise (data extracted from Appendix)}{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces {\bfseries  Vision Policy Generalization (Vision-Final).} Success rates under varying degrees of perturbation across six dimensions. The vision-based policy demonstrates strong robustness to visual noise (Camera Pose, Basket Position) and physical friction, but degrades linearly with spatial distribution shift (Cube Range) and shows high sensitivity to action execution noise.}}{9}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:vision_eval}{{7}{9}{{\bfseries Vision Policy Generalization (Vision-Final).} Success rates under varying degrees of perturbation across six dimensions. The vision-based policy demonstrates strong robustness to visual noise (Camera Pose, Basket Position) and physical friction, but degrades linearly with spatial distribution shift (Cube Range) and shows high sensitivity to action execution noise}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Vision-Final Policy Generalization Analysis.}{9}{subsubsection.4.1.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces {\bfseries  Distribution Study: Training Distribution vs. Model Generalization.} Success rates on the fixed ``Hard'' baseline evaluation set when trained on datasets with varying randomization scales (limited to 100 demos). {\bfseries  (Top Left)} Inverse scaling in basket noise suggests lower training variance aids feature learning under data scarcity. \textbf  {(Top Right)} Direct scaling in spatial range confirms coverage is essential for geometric generalization. \textbf  {(Bottom)} A ``sweet spot'' in initial condition noise (20mm) balances visual servoing learning against data sparsity.}}{10}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:dist_study}{{8}{10}{{\bfseries Distribution Study: Training Distribution vs. Model Generalization.} Success rates on the fixed ``Hard'' baseline evaluation set when trained on datasets with varying randomization scales (limited to 100 demos). {\bfseries (Top Left)} Inverse scaling in basket noise suggests lower training variance aids feature learning under data scarcity. \textbf {(Top Right)} Direct scaling in spatial range confirms coverage is essential for geometric generalization. \textbf {(Bottom)} A ``sweet spot'' in initial condition noise (20mm) balances visual servoing learning against data sparsity}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.4}Impact of Training Distribution on Generalization Capabilities}{10}{subsubsection.4.1.4}\protected@file@percent }
+\newlabel{sec:dist_study}{{4.1.4}{10}{Impact of Training Distribution on Generalization Capabilities}{subsubsection.4.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Data enhancement pipeline}{11}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}MimicGen-Based data augmentation}{11}{subsubsection.4.2.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Impact of MimicGen data augmentation scale on stacking task success rate.}}{12}{table.caption.10}\protected@file@percent }
+\newlabel{tab:mimicgen_scaling}{{3}{12}{Impact of MimicGen data augmentation scale on stacking task success rate}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Cosmos data augmentation}{12}{subsubsection.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results \& Discussion}{12}{section.5}\protected@file@percent }
+\newlabel{fig:rgb}{{9a}{13}{RGB}{figure.caption.11}{}}
+\newlabel{sub@fig:rgb}{{a}{13}{RGB}{figure.caption.11}{}}
+\newlabel{fig:depth}{{9b}{13}{Depth}{figure.caption.11}{}}
+\newlabel{sub@fig:depth}{{b}{13}{Depth}{figure.caption.11}{}}
+\newlabel{fig:seg}{{9c}{13}{Segmentation}{figure.caption.11}{}}
+\newlabel{sub@fig:seg}{{c}{13}{Segmentation}{figure.caption.11}{}}
+\newlabel{fig:output}{{9d}{13}{Output}{figure.caption.11}{}}
+\newlabel{sub@fig:output}{{d}{13}{Output}{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Qualitative results of Cosmos-Transfer 1.0. {\bfseries  Top row}: Multimodal conditioning inputs (RGB, Depth, and Semantic Segmentation) from one representative frame of the original Isaac Sim trajectory. {\bfseries  Bottom row}: Stylized output frames generated by Cosmos-Transfer, demonstrating diverse photorealistic appearance transfer while preserving robot motion and scene geometry.}}{13}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:cosmos_transfer_qualitative}{{9}{13}{Qualitative results of Cosmos-Transfer 1.0. {\bfseries Top row}: Multimodal conditioning inputs (RGB, Depth, and Semantic Segmentation) from one representative frame of the original Isaac Sim trajectory. {\bfseries Bottom row}: Stylized output frames generated by Cosmos-Transfer, demonstrating diverse photorealistic appearance transfer while preserving robot motion and scene geometry}{figure.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion \& Future Work}{14}{section.6}\protected@file@percent }
+\bibdata{iclr2025_conference}
+\bibcite{dalal2023imitatingtaskmotionplanning}{{1}{2023}{{Dalal et~al.}}{{Dalal, Mandlekar, Garrett, Handa, Salakhutdinov, and Fox}}}
+\bibcite{JMLR:v16:garcia15a}{{2}{2015}{{Garc{{\'i}}a et~al.}}{{Garc{{\'i}}a, Fern, and o~Fern{{\'a}}ndez}}}
+\bibcite{jiang2025dexmimicgenautomateddatageneration}{{3}{2025}{{Jiang et~al.}}{{Jiang, Xie, Lin, Xu, Wan, Mandlekar, Fan, and Zhu}}}
+\bibcite{Muratore_2021}{{4}{2021}{{Muratore et~al.}}{{Muratore, Eilers, Gienger, and Peters}}}
+\bibcite{nvidia2025cosmosworldfoundationmodel}{{5}{2025}{{NVIDIA et~al.}}{{NVIDIA, :, Agarwal, Ali, Bala, Balaji, Barker, Cai, Chattopadhyay, Chen, Cui, Ding, Dworakowski, Fan, Fenzi, Ferroni, Fidler, Fox, Ge, Ge, Gu, Gururani, He, Huang, Huffman, Jannaty, Jin, Kim, Klár, Lam, Lan, Leal-Taixe, Li, Li, Lin, Lin, Ling, Liu, Liu, Luo, Ma, Mao, Mo, Mousavian, Nah, Niverty, Page, Paschalidou, Patel, Pavao, Ramezanali, Reda, Ren, Sabavat, Schmerling, Shi, Stefaniak, Tang, Tchapmi, Tredak, Tseng, Varghese, Wang, Wang, Wang, Wang, Wei, Wei, Wu, Xu, Yang, Yen-Chen, Zeng, Zeng, Zhang, Zhang, Zhang, Zhao, and Zolkowski}}}
+\bibcite{Pomerleau2015ALVINNAA}{{6}{2015}{{Pomerleau}}{{}}}
+\bibcite{ramakrishnan2020blind}{{7}{2020}{{Ramakrishnan et~al.}}{{Ramakrishnan, Kamar, Dey, Horvitz, and Shah}}}
+\bibcite{torne2024reconcilingrealitysimulationrealtosimtoreal}{{8}{2024}{{Torne et~al.}}{{Torne, Simeonov, Li, Chan, Chen, Gupta, and Agrawal}}}
+\bibcite{wang2025recipeefficientsimtorealtransfer}{{9}{2025}{{Wang et~al.}}{{Wang, Li, Niu, Huang, Zhang, and Su}}}
+\bibcite{zhang2025stepworldmodelssurvey}{{10}{2025}{{Zhang et~al.}}{{Zhang, Cheng, Sun, Wang, Li, Zhu, and Shen}}}
+\bibcite{zhang2018deepimitationlearningcomplex}{{11}{2018}{{Zhang et~al.}}{{Zhang, McCarthy, Jow, Lee, Chen, Goldberg, and Abbeel}}}
+\bibcite{zhao2020closingsimtorealgapcollaborative}{{12}{2020}{{Zhao et~al.}}{{Zhao, Queralta, Qingqing, and Westerlund}}}
+\bibstyle{iclr2025_conference}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Appendix}{16}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Detailed Robustness Evaluation}{16}{subsection.A.1}\protected@file@percent }
+\newlabel{app:robustness}{{A.1}{16}{Detailed Robustness Evaluation}{subsection.A.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces {\bfseries  Full Sweep of Robustness Tests (MLP-Base).} Detailed success rate curves across varying disturbances, physics parameters, and sensor/actuation noise levels. Note the sharp drop-off in the \texttt  {timestep} and \texttt  {action\_noise} subplots.}}{17}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:gen_extra_full}{{10}{17}{{\bfseries Full Sweep of Robustness Tests (MLP-Base).} Detailed success rate curves across varying disturbances, physics parameters, and sensor/actuation noise levels. Note the sharp drop-off in the \texttt {timestep} and \texttt {action\_noise} subplots}{figure.caption.13}{}}
+\gdef \@abspage@last{17}
